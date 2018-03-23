@@ -68,7 +68,8 @@ namespace TEST01_WPFMVVM.viewmodel
 
         private bool CanUpdate()
         {
-            return IsSelectedCustomer;            
+            //return IsSelectedCustomer; 
+            return true;
         }
         
 
