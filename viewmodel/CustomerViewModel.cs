@@ -119,7 +119,8 @@ namespace TEST01_WPFMVVM.viewmodel
 
         private bool CanRemove()
         {
-            return IsSelectedCustomer;
+            //return IsSelectedCustomer;
+            return true;
         }
 
         private bool IsSelectedCustomer => SelectedCustomer != null;
